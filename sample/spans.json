@@ -1,0 +1,13 @@
+{
+  "missing_code": "E_MISSING_PARENT",
+  "max_depth": 2,
+  "budget": 4,
+  "spans": [
+    {"id": "s0", "start": 0, "end": 10, "parent": null},
+    {"id": "s1", "start": 1, "end": 4, "parent": "s0"},
+    {"id": "s2", "start": 2, "end": 3, "parent": "s1"},
+    {"id": "s3", "start": 5, "end": 8, "parent": "s0"},
+    {"id": "s4", "start": 6, "end": 7, "parent": "s3"},
+    {"id": "s5", "start": 11, "end": 12, "parent": null}
+  ]
+}
